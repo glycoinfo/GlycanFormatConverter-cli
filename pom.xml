@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>org.glycoinfo</groupId>
     <artifactId>GlycanFormatConverter-cli</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,7 +15,7 @@
     <ciManagement>
         <notifiers>
             <notifier>
-                <address>glytoucan@gmail.com</address>
+                <address>glyconavi@gmail.com</address>
                 <type>mail</type>
             </notifier>
         </notifiers>
@@ -76,7 +76,7 @@
     <repositories>
         <repository>
             <id>glycoinfo</id>
-            <url>http://nexus.glycoinfo.org/content/groups/public</url>
+            <url>https://nexus.glycoinfo.org/content/groups/public</url>
             <releases>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
@@ -212,7 +212,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>spring-releases</id>
-            <url>http://repo.spring.io/libs-release</url>
+            <url>https://repo.spring.io/libs-release</url>
         </pluginRepository>
     </pluginRepositories>
 </project>
